@@ -1,0 +1,13 @@
+appId: com.launchgood.Launchgood.development
+---
+- runFlow: Signup.yaml # <-- Run commands from "Signup.yaml"
+- tapOn: Login
+- tapOn: Email
+- inputText: inaamullah10p@gmail.com
+- tapOn: Password
+- inputText: 123456
+- tapOn:
+    text: Login
+    index: 1
+
+

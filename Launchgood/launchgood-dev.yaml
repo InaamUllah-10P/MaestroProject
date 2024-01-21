@@ -1,0 +1,10 @@
+appId: com.launchgood.Launchgood.development
+---
+- launchApp
+- repeat:
+    times: 3
+    commands:
+      - swipe:
+          direction: LEFT
+          duration: 400
+      - waitForAnimationToEnd

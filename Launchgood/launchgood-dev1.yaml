@@ -1,0 +1,4 @@
+appId: com.launchgood.Launchgood.development
+---
+- launchApp
+- waitForAnimationToEnd

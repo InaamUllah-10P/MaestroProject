@@ -1,0 +1,33 @@
+appId: com.launchgood.Launchgood.development
+---
+- launchApp:
+    appId: "com.launchgood.Launchgood.development"
+    clearState: true
+- tapOn: Ok
+- tapOn:
+    id: profile-unselected
+- tapOn: Sign Up
+- tapOn: First Name
+- inputText: inaam
+- tapOn: Last Name
+- inputText: LG
+- tapOn: Email
+- inputRandomEmail
+- tapOn: Password
+- inputText: 123456
+- tapOn:
+    text: "Sign Up"     # (optional) Finds text or accessibility text that matches regexp.
+    index: 1
+
+    #     id: "id"         # (optional) Finds id that matches regexp
+    
+- tapOn: ok
+- copyTextFrom:
+    point: 20, 233
+    width: 390       # (optional) Finds element of a given width
+    height: 47
+    enabled: true
+#    below: "View above that has this text"     # This will match view *above* that has the given text
+#    above:
+#        text: Last Name
+
